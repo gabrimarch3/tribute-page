@@ -1,0 +1,74 @@
+main {
+  background-color: #f1faee;
+  box-sizing: border-box;
+}
+
+h1, p {
+  text-align: center;
+  font-family: 'unbounded';
+}
+
+p {
+  font-size: 23px;
+}
+
+.foto-principale {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #a8dadc30;
+  border: none;
+  padding: 10px 250px;
+  border-radius: 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  color: red;
+  font-family: 'unbounded';
+  font-style: italic;
+}
+
+.tribute-info {
+  border-top: 4px solid black;
+  display: flex;
+  align-items: center;
+  margin: 20px 0 auto;
+  flex-direction: column;
+  
+}
+
+.tribute-info h3 {
+  font-family: 'unbounded';
+  font-size: 35px;
+}
+
+.tribute-info > ul > li {
+  padding: 30px 7px;
+  font-family: 'unbounded';
+  font-size: 27px;
+}
+
+
+footer {
+  font-family: 'unbounded';
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin: 100px 30px 100px 30px;
+  flex-direction: column;
+}
+
+q {
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 130px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
